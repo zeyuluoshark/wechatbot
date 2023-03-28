@@ -37,14 +37,13 @@ copy config.dev.json config.json
 go run main.go
 ````
 
-# 配置文件说明
+# 配置文件说明，从openai页面拉取
 ````
 {
 "api_key": "your api key",
 "auto_pass": true,
 "session_timeout": 60
 }
-
 api_key：openai api_key
 auto_pass:是否自动通过好友添加
 session_timeout：会话超时时间，默认60秒，单位秒，在会话时间内所有发送给机器人的信息会作为上下文。
